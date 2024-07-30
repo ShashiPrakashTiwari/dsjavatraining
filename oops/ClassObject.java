@@ -8,7 +8,7 @@ public class ClassObject {
         String name=sc.nextLine();
         Trainer trainer=new Trainer();
         trainer.trainername="anuj tripathi";
-        trainer.trainerTechnology="java";
+       trainer.trainerTechnology="java";
         System.out.println("my name is "+trainer.trainername+
                 "my technology is"+trainer.trainerTechnology);
         trainer.printTrainerprofile(trainer.trainername,trainer.trainerTechnology);
